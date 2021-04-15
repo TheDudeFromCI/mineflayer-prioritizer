@@ -1,31 +1,33 @@
 {
-  "name": "prismarine-template",
-  "version": "1.0.0",
-  "description": "A template repository to make it easy to create new prismarine repo",
-  "main": "index.js",
+  "name": "mineflayer-prioritizer",
+  "version": "0.0.1",
+  "description": "An emotionally-driven prioritizer and self-activator for controlling Mineflayer bots and underlying plugins.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest --verbose",
-    "pretest": "npm run lint",
     "lint": "standard",
     "fix": "standard --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrismarineJS/prismarine-template.git"
+    "url": "git+https://github.com/TheDudeFromCI/mineflayer-prioritizer.git"
+  },
+  "engines": {
+    "node": "14"
   },
   "keywords": [
-    "prismarine",
-    "template"
+    "mineflayer",
+    "plugin",
+    "ai",
+    "emotion",
+    "decision"
   ],
-  "author": "Romain Beaumont",
+  "author": "TheDudeFromCI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/prismarine-template/issues"
+    "url": "https://github.com/TheDudeFromCI/mineflayer-prioritizer/issues"
   },
-  "homepage": "https://github.com/PrismarineJS/prismarine-template#readme",
+  "homepage": "https://github.com/TheDudeFromCI/mineflayer-prioritizer#readme",
   "devDependencies": {
-    "jest": "^26.1.0",
-    "prismarine-template": "file:.",
     "standard": "^16.0.1"
   }
 }
